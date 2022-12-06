@@ -1,0 +1,50 @@
+
+/* Universal selectors */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/*  SECTION  */
+section{
+	    background-color:#ebf0f2;
+		padding:70px;
+}
+
+/*  CONTAINER  */
+.container{
+	       margin:auto;
+           width:90%;
+}
+
+/*  ROW  */
+.row{
+	 display:flex;
+	 flex-wrap:wrap;
+	 justify-content:space-around;	 
+}
+
+/*  CHILD  */
+.box1{
+      width:23%;
+	  background-color:white;
+      border:solid #ebf0f2;
+	  text-align:center;
+	  padding:50px;
+}
+
+/*  HEADING  */
+h1{
+	font-family:Open Sans, sans-serif;
+	font-size:45px;
+    color:#2d8cb5;
+	margin-bottom:8px
+}
+
+/* PARAGRAPH  */
+p{
+  font-family:verdana,sans-serif;
+  font-size:15px;
+  color:#919ea3;
+}
